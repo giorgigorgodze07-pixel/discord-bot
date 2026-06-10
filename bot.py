@@ -5,8 +5,8 @@ import os
 from datetime import datetime
 
 # ========== შენი TOKENS ==========
-DISCORD_TOKEN = "შენი_DISCORD_TOKEN_აქ"
-GEMINI_API_KEY = "შენი_GEMINI_API_KEY_აქ"
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 # ==================================
 
 # Gemini-ს კონფიგურაცია
